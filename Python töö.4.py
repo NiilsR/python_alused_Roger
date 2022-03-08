@@ -38,3 +38,28 @@ def tervitus(a):
         
 tervitus(kulalised)
 '''
+
+# Mündid
+'''
+def pkarv(a):
+    summa = 0
+    fail = open(a, encoding="UTF-8")
+    for i in fail:
+        if int (i)<6:
+            summa+=int(i)
+    return summa
+print("hoiupörsasse läheb",pkarv("mundid.txt"),"senti")
+'''
+
+# Kuupäev
+
+def kuu_nimi(a):
+    kuud=["","jaan","veeb","mär","apr"]
+    return kuud[a]
+print(kuu_nimi(1))
+
+def kuupaev_paev(b):
+    dd,mm,yyyy=b.split(".")
+    print(dd,kuu_nimi(int(mm)),yyyy)
+
+kuupaev_paev("24.02.1918")
