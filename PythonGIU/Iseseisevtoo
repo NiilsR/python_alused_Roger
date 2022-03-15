@@ -19,3 +19,4 @@ for x in range(4):
     kk.forward(100)
     kk.right(90)
 
+turtle.exitonclick()
