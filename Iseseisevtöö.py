@@ -6,7 +6,7 @@ import turtle
 
 #akna seaded
 aken = turtle.Screen()
-aken.setup(600,600)
+aken.setup(800,800)
 aken.title("Iseseisev töö")
 
 # kujundi loomine
@@ -20,4 +20,18 @@ for x in range(1):
     kk.right(90)
     kk.forward(100)
     kk.left(90)
+    kk.forward(100)
+    kk.right(90)
+    kk.forward(100)
+    kk.right(90)
+    kk.forward(100)
+    kk.left(90)
+    kk.forward(100)
+    kk.right(90)
+    kk.forward(100)
+    kk.right(90)
+    kk.forward(100)
+    kk.left(90)
+    kk.forward(100)
+    kk.right(90)
     kk.forward(100)
